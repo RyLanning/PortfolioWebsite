@@ -15,17 +15,17 @@ const About = () => {
         <div className="max-w-[1000px] w-full grid px-4">
           <div>
             <pre className="text-black w-[1000px] overflow-x-auto break-words whitespace-pre-wrap">
-              {"/*"} I am a Software Engineering Student at the Univeristy of
+              {'""" '} I am a Software Engineering Student at the Univeristy of
               Nebraska-Licoln, graduating in 2025. I am currently learning
               full-stack development. I am a competent, communicative, and
               efficient engineer who has an "anything is possible" mindset.
-              {"*/ \n"}
+              {"\n"}
             </pre>
             <pre className="text-black w-[1000px] overflow-x-auto break-words whitespace-pre-wrap">
-              {"\n/*"} I am currently working as a software engineer for Data
+              {"\n"} I am currently working as a software engineer for Data
               Security Inc. in Lincoln, NE. I have just over 4 years of
               professional software development experience, and am always
-              looking for new ways to grow as a developer.{"*/"}
+              looking for new ways to grow as a developer.{' """'}
             </pre>
           </div>
         </div>
