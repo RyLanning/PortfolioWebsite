@@ -9,12 +9,12 @@ const Home = () => {
       <div className="max-w-[1100px] mx-auto px-4 py-[150px] flex justify-center h-full ">
         <img className="h-[400px] w-[400px]" src={PortraitCircle} alt="" />
         <div>
-          <p className="text-[#f77f00] ">Hi, my name is</p>
+          <p className="text-[#f77f00] ">{"//"}Hi, my name is</p>
           <h1 className="text-4xl sm:text-7xl font-bold text-[#bf2222]">
             Rylen Lanning
           </h1>
           <h2 className="py-4 text-3xl sm:text-7xl font-bold text-[#f77f00]">
-            I am a Software Engineer with 4+ years of experience.
+            {"/* "}I am a Software Engineer with 4+ years of experience.{" */"}
           </h2>
           <div>
             <button className="text-[#bf2222] group border-2 border-black px-6 py-3 my-2 flex items-center hover:bg-[#bf2222] hover:text-black">
