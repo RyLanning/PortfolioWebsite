@@ -8,34 +8,34 @@ const Navbar = () => {
       const [nav, setNav] = useState(false)
       const handleClick = () => setNav(!nav)
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
-      <div>
-            <img src={Logo} alt="Big Logo" style={{width: '150px'}}/>
+    <div className='flex fixed flex-col w-[135px] h-full justify-between items-center px-4 bg-[#eae2b7] text-[#bf2222]'>
+      <div className='w-full h-[100px]'>
+            <img src={Logo} alt="Big Logo" style={{width: '300px'}}/>
       </div>
 
       {/* menu */}
-      <ul className='hidden md:flex'>
-            <li>
+      <ul className='text-2xl flex fixed top-[7%] left-0 flex-col md:flex'>
+            <li className='py-2 border-2 border-black hover:bg-[#d62828] hover:text-black duration-300'>
             <Link to="home" smooth={true} duration={500}>
                   Home
             </Link>
             </li>
-            <li>
+            <li className='py-2 border-2 border-black hover:bg-[#d62828] hover:text-black duration-300'>
             <Link to="about" smooth={true} duration={500}>
                   About
             </Link>
             </li>
-            <li>
+            <li className='py-2 border-2 border-black hover:bg-[#d62828] hover:text-black duration-300'>
             <Link to="skills" smooth={true} duration={500}>
                   Skills
             </Link>
             </li>
-            <li>
+            <li className='py-2 border-2 border-black hover:bg-[#d62828] hover:text-black duration-300'>
             <Link to="work" smooth={true} duration={500}>
                   Work
             </Link>
             </li>
-            <li>
+            <li className='py-2 border-2 border-black hover:bg-[#d62828] hover:text-black duration-300'>
             <Link to="contact" smooth={true} duration={500}>
                   Contact
             </Link>
@@ -77,25 +77,25 @@ const Navbar = () => {
       </ul>
 
       {/* Social Icons */}
-      <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+      <div className='hidden lg:flex fixed flex-col top-[50%] left-0'>
             <ul>
-                  <li className='w-[160px] h-[60px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-                        <a className='flex justify-between items-center w-full text-gray-300' href="/">
+                  <li className='w-[160px] h-[60px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 bg-[#eae2b7] border-2 border-black  text-[#bf2222] hover:bg-[#bf2222] hover:text-black'>
+                        <a className='flex justify-between items-center w-full' href="https://www.linkedin.com/in/rylen-lanning/">
                               Linkedin <FaLinkedin />
                         </a>
                   </li>
-                  <li className='w-[160px] h-[60px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-                        <a className='flex justify-between items-center w-full text-gray-300' href="/">
+                  <li className='w-[160px] h-[60px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 bg-[#eae2b7] border-2 border-black  text-[#bf2222] hover:bg-[#bf2222] hover:text-black'>
+                        <a className='flex justify-between items-center w-full' href="https://github.com/RyLanning">
                               Github <FaGithub />
                         </a>
                   </li>
-                  <li className='w-[160px] h-[60px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-                        <a className='flex justify-between items-center w-full text-gray-300' href="/">
+                  <li className='w-[160px] h-[60px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 bg-[#eae2b7] border-2 border-black  text-[#bf2222] hover:bg-[#bf2222] hover:text-black'>
+                        <a className='flex justify-between items-center w-full' href="mailto:rylen.lanning@gmail.com">
                               Email <HiOutlineMail />
                         </a>
                   </li>
-                  <li className='w-[160px] h-[60px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-                        <a className='flex justify-between items-center w-full text-gray-300' href="/">
+                  <li className='w-[160px] h-[60px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 bg-[#eae2b7] border-2 border-black  text-[#bf2222] hover:bg-[#bf2222] hover:text-black'>
+                        <a className='flex justify-between items-center w-full' href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:c4f78aa3-c880-339e-8efa-98a0413ad225">
                               Resume <BsFillPersonLinesFill />
                         </a>
                   </li>
